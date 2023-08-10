@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #D8C4B6;
+}
+
+h1{
+    margin: 50px;
+    white-space: pre-line;
+    font-family: 'Inconsolata';
+    text-align: center;   
+    color: black;
+}
+
+.box{
+    background: #EEE3CB;
+    width:350px;
+    height: 350px;
+    margin: 0 auto 0 auto;
+    padding:0px 0px 70px 0px;
+    border-radius: 2px;
+    border-top: #967E76 4px solid;  
+    box-shadow: 0px 30px 30px rgba(0,0,0,0.1);
+  }
+  
+  .type{
+    margin: auto;
+    display: block;
+    background: #D7C0AE;
+    border: #ccb5a4 1px solid;
+    border-bottom: #ccb5a4 5px solid;
+    padding: 8px;
+    width:250px;
+    color:#797878;
+    margin-top: 35px;
+    font-size:1em;
+    border-radius:4px;
+    font-family: 'Inconsolata';
+    outline: none;
+  }
+
+  input:focus{
+    border-color: #af9c8e;
+    transition: 0.3s;
+  }
+
+  .btn{
+    display: block;
+    margin: 0 auto;
+    background:#D7C0AE;
+    border: #ccb5a4 1px solid;
+    border-bottom: #ccb5a4 5px solid;
+    padding: 8px;
+    width:250px;
+    color:#858484;
+    margin-top: 40px;
+    box-shadow: 7px 7px 15px -3px rgba(0,0,0,0.1);
+    font-size:1em;
+    border-radius:4px;
+    font-family: 'Inconsolata';
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover{
+    background-color: #e2c8b4;
+  }
